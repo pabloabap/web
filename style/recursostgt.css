@@ -93,6 +93,12 @@
 .target_recursos > .contenido_recursos > .exit_btn {
     position: fixed;
     color:#013171;
+    background-color: orangered;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 2px;
+    font-size: 1.5em;
+    font-weight: 700;
     top: 12%;
     right: 12%;
     z-index: 90;
@@ -104,25 +110,31 @@
 }
 
 .target_recursos > .contenido_recursos >.next{
-    font-size: 5em;
+    font-size: 3em;
     position: fixed;
-    color:red;
+    color:orangered;
+    background-color: #013171;
+    border-radius: 15px;
+    margin: 2px;
     top: 50%;
     right: 11%;
 }
 
 .target_recursos > .contenido_recursos >.previous {
-    font-size: 5em;
+    font-size: 3em;
     position: fixed;
-    color:red;
+    color:orangered;
+    background-color: #013171;
+    border-radius: 15px;
     top: 50%;
     left: 10%;
+    margin: 2px;
 }
 
 .target_recursos > .contenido_recursos > .next:hover {
-    font-size: 6rem;
+    font-size: 4rem;
 }
 
 .target_recursos > .contenido_recursos > .previous:hover{
-    font-size: 6rem;
+    font-size: 4rem;
 }

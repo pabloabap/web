@@ -127,11 +127,14 @@
     box-sizing: border-box;
     top:10%;
     right: 12%;
-    color: white;
     font-weight: 900;
     z-index: 90;
     margin: 10px;
     transition: 0.5s;
+    color:orangered;
+    background-color: #013171;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .expansión:target .contenido > .exit_btn:hover{
@@ -140,31 +143,35 @@
 }
 
 .expansión:target .contenido > .next{
-    color: #EF4035;
+    color:orangered;
+    background-color: #013171;
+    border-radius: 15px;
     position: fixed;
     right: 11%;
     top: 50%;
-    font-size: 5rem;
+    font-size: 3rem;
     transition: 0.5s;
     z-index: 90;
 }
 
 
 .expansión:target .contenido > .previous{
-    color: #EF4035;
     position: fixed;
     left: 10%;
     top: 50%;
-    font-size: 5rem;
+    font-size: 3rem;
     transition: 0.5s;
+    color:orangered;
+    background-color: #013171;
+    border-radius: 15px;
 }
 
 .expansión:target .contenido > .next:hover{
-    font-size: 6rem
+    font-size: 4rem
 }
 
 .expansión:target .contenido > .previous:hover{
-    font-size: 6rem
+    font-size: 4rem
 }
 
 .contenido{

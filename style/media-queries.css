@@ -81,11 +81,15 @@
     .target_recursos > .contenido_recursos >.next{
         right:1%;
         font-size: 3em;
+        color: #013171;
+        background-color: orangered;
     }
 
     .target_recursos > .contenido_recursos >.previous{
         left: 1%;
         font-size: 3em;
+        color: #013171;
+        background-color: orangered;
     }
 
     .target_recursos > .contenido_recursos > .text p{
@@ -110,6 +114,20 @@
 
     #artículos > .posts > .post p{
         padding: 20px 10px;
+    }
+
+    .titulo_area h1 {
+        color: white;
+        /* font-size: 1.5rem; */
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .titulo_area h2 {
+        font-size: 1em;
     }
 
     #recursos{
