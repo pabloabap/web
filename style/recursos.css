@@ -49,7 +49,7 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-width:28%;
+width:27%;
 max-width: 680px;
 height: 100%;
 margin: 20px;
@@ -81,11 +81,9 @@ background-color: #4472C4;
 
 .bg_video{
     z-index: 1;
+    background-color: white;
     position: absolute;
-    top:0;
-    left:0;
-    height: 70%;
-    
+    height: 70%;   
 }
 
 #recursos > .posts > .container > .cat{
@@ -110,4 +108,8 @@ background-color: #4472C4;
     font-size: 1.5em;
     text-align: center;
     color: white;
+}
+
+#recursos > .scroll {
+    visibility: hidden;
 }
