@@ -50,13 +50,28 @@
     }
     
     .expansión:target >.contenido > .previous {
-        left:1%;
-        font-size: 3em;
+        left:3%;
+        font-size: 2em;
+        color: #013171;
+        background-color: orangered;
+        padding: 2px;
+        border-radius: 15px;
     }
 
     .expansión:target >.contenido > .next {
-        right:1%;
-        font-size: 3em;
+        right:3%;
+        font-size: 2em;
+        color: #013171;
+        background-color: orangered;
+        padding: 2px;
+        border-radius: 15px;
+    }
+
+    .expansión:target >.contenido > .exit_btn {
+        color: #013171;
+        background-color: orangered;
+        padding: 5px;
+        border-radius: 15px;
     }
 
     .expansión:target .contenido p{
@@ -98,22 +113,20 @@
     }
 
     #recursos{
-        overflow: hidden;
+        height: 800px;
         align-items: center;
     }
 
     #recursos > .posts {
-        width: 100%;
-        height: 80%;
-        overflow-x: scroll;
-        overflow-y: hidden;
-        justify-content: right;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
-    #recursos > .scroll {
-        visibility: visible;
-        font-size: 4em;
+    #recursos > .posts > .container {
+        height: 90%;
     }
+
     
     #contacto {
         display: flex;
