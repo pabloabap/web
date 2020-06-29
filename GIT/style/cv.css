@@ -1,0 +1,97 @@
+#cv {
+    height: 200px;
+    background: linear-gradient( to bottom right, #eee8dd, #e3d9c6 );
+}
+
+#cv > .areas_wrapper{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 80%;
+    margin: 0px 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    min-width: 144px;
+}
+
+.area > .front{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+    color:white;
+}
+
+.area > .bottom1, .bottom2, .bottom3, .bottom4{
+    background-color: white;
+    width: 100%;
+    margin-bottom: -10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color:#2F29F0
+}
+
+.area > .bottom1 a{
+    color: #2F29F0;
+    
+}
+
+.area > .bottom2 a{
+    color: #EF4035;
+}
+
+.area > .bottom3 a{
+    color: #EDCD2B
+}
+
+.area > .bottom4 a{
+    color: #00db93
+}
+
+.area i{
+    font-size: 40px;     
+}
+
+#cv > .areas_wrapper > .area:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F29F0;
+    transition: 2s;
+}
+
+#cv > .areas_wrapper > .area:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EF4035;
+    transition: 2s;
+}
+
+#cv > .areas_wrapper > .area:nth-child(3){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDCD2B;
+    transition: 2s;
+}
+
+#cv > .areas_wrapper > .area:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00db93;
+    transition: 2s;
+}
