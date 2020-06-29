@@ -1,0 +1,44 @@
+header{
+    background-color: #ffffff;
+    width: 100%; 
+    height:100px; 
+    padding: 0px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 5;
+}
+
+header > nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+header img{
+    width:70px;
+    height:70px;
+    padding:10px 15px 0px 15px;
+}
+
+header > nav a{
+    width: 120px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    color:#CBCBCB;
+    padding-right: 20px;
+    transition: 0.5s;
+}
+
+header > nav a:hover{
+    color: #ff8000;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+
+}
