@@ -92,8 +92,8 @@
 
 .target_recursos > .contenido_recursos > .exit_btn {
     position: fixed;
-    color:#013171;
-    background-color: orangered;
+    color:orangered;
+    background-color: #013171;
     border-radius: 15px;
     padding: 5px;
     margin: 2px;
