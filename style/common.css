@@ -1,14 +1,22 @@
 body{
     font-family: 'Lato', sans-serif;
     background-color: white;
-    margin:0px;
-    
+    margin:0px;  
 }
 
 a{
     text-decoration: none;
     color: white;
     transition: 0.5s;
+}
+
+.contenido > .text h3{
+    color:orange;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 130px;
+    font-weight: 900;
 }
 
 a:hover{

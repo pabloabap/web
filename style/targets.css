@@ -114,7 +114,19 @@
     text-align: justify;
     line-height: 25px;
     margin-bottom: 0px;
-    margin-top: 150px;
+    padding:10px 80px;
+    height: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+
+.expansión:target .contenido > .text > .list{
+    position: relative;
+    box-sizing: border-box;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 0px;
     padding:10px 80px;
     height: 5rem;
     width: 100%;
