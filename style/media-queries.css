@@ -78,6 +78,11 @@
         padding: 10px
     }
 
+    .expansión:target .contenido > .text >.{
+        padding: 10px
+    }
+
+
     .target_recursos > .contenido_recursos >.next{
         right:1%;
         font-size: 3em;
@@ -92,11 +97,16 @@
         background-color: orangered;
     }
 
+    .target_recursos > .contenido_recursos > .exit_btn{
+        color: #013171;
+        background-color: orangered;
+    }
+
     .target_recursos > .contenido_recursos > .text p{
         margin: 10px
     }
 
-    #artículos > .art_filtro {
+        #artículos > .art_filtro {
         visibility: hidden;
         margin-top: -50px;
     }
