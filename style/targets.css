@@ -28,11 +28,6 @@
     overflow-x: hidden;
 }
 
-.expansión:target .contenido::-webkit-scrollbar-{
-  
-}
-
-
 .expansión:target .contenido > .img{
     width: inherit;
     height: 120px;
