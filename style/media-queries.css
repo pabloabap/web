@@ -1,7 +1,5 @@
 @media (max-width: 615px){
-    h2 {
-        text-align: center;
-    }
+   
     .arriba {
         display:flex;
         flex-direction: column;
@@ -81,7 +79,7 @@
         padding: 10px
     }
 
-    .expansión:target .contenido > .text >.{
+    .expansión:target .contenido > .text >.list{
         padding: 10px
     }
 
